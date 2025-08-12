@@ -1,2 +1,6 @@
-# ecrin-first
-hackhaton
+# worldwithai
+This project aims to analyze users' energy waste and carbon footprints by identifying inefficiencies and creating personalized, actionable plans to reduce energy waste and promote the use of renewable energy.
+The platform helps households, businesses, and organizations optimize their energy consumption, reduce costs, and accelerate the transition to sustainable energy sources. It also raises awareness about energy waste and supports the spread of sustainable habits.
+Users can access the application by manually uploading files or connecting their smart meters. The system analyzes this data and provides personalized visualized plans. Since the application does not require technical knowledge, it is easily usable by everyone.
+The platform offers an online help center with FAQs, user guides, and troubleshooting tips. Users can also contact the support team via email or participate in community forums. Regular updates and educational materials are provided to ensure effective use of the platform.
+The project is maintained by a team open to development and improvement, and anyone who is environmentally conscious and has experience in this field can contribute through dedicated panels.
