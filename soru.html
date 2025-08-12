@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>World With Ai - FAQ</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="logo">World With Ai</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="soru.html" class="active">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="card-grid">
+      <div class="card faq-item">
+        <div class="faq-question">1. How can I run the project?</div>
+        <div class="faq-answer">
+          Download the files and run them using a local or live server.
+        </div>
+      </div>
+
+      <div class="card faq-item">
+        <div class="faq-question">2. Which programming languages are used?</div>
+        <div class="faq-answer">
+          HTML, CSS, and JavaScript are used.
+        </div>
+      </div>
+
+      <div class="card faq-item">
+        <div class="faq-question">3. Is the design responsive?</div>
+        <div class="faq-answer">
+          Yes, it works on all screen sizes.
+        </div>
+      </div>
+
+      <div class="card faq-item">
+        <div class="faq-question">4. Can I modify the code?</div>
+        <div class="faq-answer">
+          Yes, the code is open source and editable.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        const parent = q.parentElement;
+        parent.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>
